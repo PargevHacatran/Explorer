@@ -1,0 +1,141 @@
+.header-page{
+    background: url(../img/card-bg1.jpg), no-repeat;
+    background-size: 100%;
+    height: 300px;
+}
+
+.blog-catalogs{
+    position: relative;
+    max-width: 100%;
+}
+
+.blog-catalogs__title{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+.blog-catalogs__subtitle{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Loto', sans-serif;
+}
+
+.blog-catalogs__cart{
+    position: relative;
+    display: inline-block;
+    left: 275px;
+    margin-top: 30px;
+    width: 800px;
+    height: 625px;
+}
+
+.blog-catalogs-cart__icon{
+    position: absolute;
+    top: 200px;
+    left: 60px;
+}
+
+.blog-catalogs-cart__user-name, .blog-catalogs-cart__date{
+    position: absolute;
+    font-family: 'Loto', sans-serif;
+    opacity: .6;
+    font-size: 18px;
+    color: #fff;
+    left: 115px;
+}
+
+.blog-catalogs-cart__user-name{
+    top: 200px;
+}
+
+.blog-catalogs-cart__date{
+    top: 225px;
+}
+
+.blog-catalogs-cart__text{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #333;
+    line-height: 25px;
+}
+
+.blog-catalogs-cart__btn{
+    position: absolute;
+    text-decoration: none;
+    color: #8D4FDB;
+    font-family: 'Loto', sans-serif;
+    font-size: 18px;
+    bottom: 20px;
+    left: 0;
+}
+
+.blog-catalogs-cart__btn:hover{
+    cursor: pointer;
+    transition: .1s;
+    border-bottom: 2px solid #8946db;
+}
+
+.saidbar{
+    position: absolute;
+    top: 95px;
+    width: 200px;
+    height: 400px;
+    right: 20px;
+}
+
+.saidbar p{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #333;
+}
+
+.saidbar__section{
+    top: 10px;
+    left: 28px;
+}
+
+.saidbar ul li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.saidbar ul li a{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #333;
+    margin-left: 20px;
+}
+
+.saidbar ul li:first-child{
+    margin-top: 45px;
+}
+
+.saidbar ul li:hover{
+    cursor: pointer;
+}
+
+.saidbar__section2{
+    margin: 15px auto;
+}
+
+.small__div{
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    right: 20px;
+}
+
+.cat-item{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #333;
+    margin-left: 20px;
+}
